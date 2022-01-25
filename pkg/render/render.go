@@ -1,4 +1,4 @@
-package main
+package render
 
 import (
 	"fmt"
@@ -7,8 +7,8 @@ import (
 )
 
 
-func renderTemp(w http.ResponseWriter, tmpl string) {
-	parsedTemp, _ := template.ParseFiles("./templates/" + tmpl)
+func RenderTemp(w http.ResponseWriter, tmpl string) {
+	parsedTemp, _ := template.ParseFiles("../../templates/" + tmpl)
 	err := parsedTemp.Execute(w, nil)
 	if err != nil {
 		fmt.Println("error occured", err)
