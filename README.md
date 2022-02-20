@@ -12,7 +12,7 @@
 
 - Open Vscode Extension Section And Search For Go And Download The First Extension.
 
-- To Check The Working Of The Codes, You Can Go To The Directory And Type `go run cmd/web/8.go`.
+- To Check The Working Of The Codes, You Can Go To The Directory And Type `go run cmd/web/*.go`.
 
 <h2>Discord Server</h2>
 
